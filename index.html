@@ -1,0 +1,543 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous">
+    </script>
+    <script src="https://kit.fontawesome.com/ff758dd04b.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="container navigation">
+        <nav class="navbar navbar-expand-md navbar-dark bg-dark p-0">
+            <a class="navbar-brand col-" href="#">FindThePrecious.com</a>
+            <button class="navbar-toggler d-lg-none" type="button" data-toggle="collapse"
+                data-target="#collapsibleNavId" aria-controls="collapsibleNavId" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="collapsibleNavId">
+                <ul class="navbar-nav mx-auto ">
+                    <li class="nav-item ">
+                        <a class="nav-link ml-5" href="#">Fellows<span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link ml-5" href="#">The Ring</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link ml-5" href="#">Get my reward</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link ml-5" href="#"> Best hunters</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link ml-5" href="#">Join the army</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link ml-5" href="#">Contact us</a>
+                    </li>
+
+
+                </ul>
+
+            </div>
+        </nav>
+    </div>
+
+    <div class="container">
+
+        <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="img/02_thb_334p5_129_212_B.jpg" class="d-block w-100 rounded" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h2>Dangerous fellowship try to destroy the ring</h2>
+                        <p>Orcs,Goblins,Balrogs,protect your master Sauron !</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="img/le-hobbit-3-la-bataille-des-cinq-armees-la-critique resize.jpg"
+                        class="d-block w-100 rounded" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h2>Are you ready for the Final war?</h2>
+                        <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="img/the_hobbit_battle_five_armies_extended_header resize.jpg"
+                        class="d-block w-100 rounded" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h2>Be the best hunter</h2>
+                        <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+                    </div>
+                </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
+
+    </div>
+
+
+    <div class="container" id="fellows">
+        <div class="row mt-3">
+            <div class="col">
+                <h3>
+                    Fellows wanted dead
+                    <small class="text-muted">(or alive if you want to eat them later)</small>
+                </h3>
+            </div>
+        </div>
+    </div>
+
+
+
+    <div class="container">
+
+        <ul class="nav nav-pills justify-content-center" id="myPill" role="tablist">
+            <li class="nav-item">
+                <a class="nav-link active" id="tab-javascript" data-toggle="tab" href="#content-javascript" role="tab"
+                    aria-controls="content-javascript" aria-selected="false">
+                    Most wanted
+                </a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" id="tab-css" data-toggle="tab" href="#content-css" role="tab"
+                    aria-controls="content-css" aria-selected="false">
+                    Most dangerous
+                </a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" id="tab-bootstrap" data-toggle="tab" href="#content-bootstrap" role="tab"
+                    aria-controls="content-bootstrap" aria-selected="true">
+                    Already captured
+                </a>
+            </li>
+        </ul>
+    </div>
+
+    <!---Wanted cards-->
+    <div class="container">
+        <div class="tab-content" id="myPillContent">
+            <div class="tab-pane fade" id="content-javascript" role="tabpanel" aria-labelledby="tab-javascript">
+
+                <div class="row mt-3">
+                    <div class="col-sm-4 d-flex justify-content-around">
+
+                        <div class="card" style="width: 18rem;">
+                            <img src="img/gandalf resize.jpg" class="card-img-top rounded gandalf" alt="...">
+
+                            <div class="encadre">
+                                <p class="vignette">Reward <span class="gold">1000</span> golden coins</p>
+                            </div>
+                            <p class="gandalfgris">Gandalf</p>
+                            <div class="card-body">
+                                <h5 class="card-title">The Wizard</h5>
+                                <p class="card-text">Small description...</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-sm-4 d-flex justify-content-around">
+
+                        <div class="card" style="width: 18rem;">
+                            <img src="img/hobbit resize.jpg" class="card-img-top rounded gandalf" alt="...">
+
+                            <div class="encadre">
+                                    <p class="vignette">Reward <span class="gold">5000</span> golden coins</p>
+                                </div>
+                                <p class="gandalfgris">Frodo</p>
+                            <div class="card-body">
+                                <h5 class="card-title">The Hobbit</h5>
+                                <p class="card-text">Small description...</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-sm-4 d-flex justify-content-around">
+
+                        <div class="card" style="width: 18rem;">
+                            <img src="img/nain resize.jpg" class="card-img-top rounded gandalf" alt="...">
+                            <div class="encadre">
+                                    <p class="vignette">Reward <span class="gold">1000</span> golden coins</p>
+                                </div>
+                                <p class="gandalfgris">Fieldset</p>
+                            <div class="card-body">
+                                <h5 class="card-title">Yummy Dwarf</h5>
+                                <p class="card-text">Small description...</p>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+
+
+            <div class="tab-pane fade" id="content-css" role="tabpanel" aria-labelledby="tab-css">
+                <div class="row mt-3">
+                    <div class="col-sm-4 d-flex justify-content-around">
+
+                        <div class="card" style="width: 18rem;">
+                            <img src="img/gandalf resize.jpg" class="card-img-top rounded gandalf" alt="...">
+                            <div class="encadre">
+                                    <p class="vignette">Reward <span class="gold">1000</span> golden coins</p>
+                                </div>
+                                <p class="gandalfgris">Gandalf</p>
+                            <div class="card-body">
+                                <h5 class="card-title">The Wizard</h5>
+                                <p class="card-text">Small description...</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-sm-4 d-flex justify-content-around">
+
+                        <div class="card" style="width: 18rem;">
+                            <img src="img/hobbit resize.jpg" class="card-img-top rounded gandalf" alt="...">
+                            <div class="encadre">
+                                    <p class="vignette">Reward <span class="gold">1000</span> golden coins</p>
+                                </div>
+                                <p class="gandalfgris">Gandalf</p>
+                            <div class="card-body">
+                                <h5 class="card-title">The Hobbit</h5>
+                                <p class="card-text">Small description...</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-sm-4 d-flex justify-content-around">
+
+                        <div class="card" style="width: 18rem;">
+                            <img src="img/nain resize.jpg" class="card-img-top rounded gandalf" alt="...">
+                            <div class="encadre">
+                                    <p class="vignette ">Reward <span class="gold">1000</span> golden coins</p>
+                                </div>
+                                <p class="gandalfgris">Gandalf</p>
+                            <div class="card-body">
+                                <h5 class="card-title">Yummy Dwarf</h5>
+                                <p class="card-text">Small description...</p>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            <div class="tab-pane fade show active" id="content-bootstrap" role="tabpanel"
+                aria-labelledby="tab-bootstrap">
+                <div class="row mt-3">
+                    <div class="col-sm-4 d-flex justify-content-around mb-3">
+
+                        <div class="card" style="width: 18rem;">
+                            <img src="img/gandalf resize.jpg" class="card-img-top rounded gandalf" alt="...">
+                            <div class="encadre">
+                                    <p class="vignette">Reward <span class="gold">1000</span> golden coins</p>
+                                </div>
+                                <p class="gandalfgris">Gandalf</p>
+                            <div class="card-body">
+                                <h5 class="card-title">The Wizard</h5>
+                                <p class="card-text">Small description...</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-sm-4 d-flex justify-content-around mb-3">
+
+                        <div class="card" style="width: 18rem;">
+                            <img src="img/hobbit resize.jpg" class="card-img-top rounded gandalf" alt="...">
+                            <div class="encadre">
+                                    <p class="vignette ">Reward <span class="gold">1000</span> golden coins</p>
+                                </div>
+                                <p class="gandalfgris">Gandalf</p>
+                            <div class="card-body">
+                                <h5 class="card-title">The Hobbit</h5>
+                                <p class="card-text">Small description...</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-sm-4 d-flex justify-content-around mb-3">
+
+                        <div class="card" style="width: 18rem;">
+                            <img src="img/legolas resize.jpg" class="card-img-top rounded gandalf" alt="...">
+                            <div class="encadre">
+                                    <p class="vignette">Reward <span class="gold">1000</span> golden coins</p>
+                                </div>
+                                <p class="gandalfgris">Gandalf</p>
+                            <div class="card-body">
+                                <h5 class="card-title">Yummy Dwarf</h5>
+                                <p class="card-text">Small description...</p>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="container mt-5 pt-3 pb-3 border-top border-bottom border-dark">
+        <div class="row">
+            <div class="col-8">
+                <h3>I have captured one of them, how to get my reward ?</h3>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iste atque blanditiis doloremque
+
+                    corporis pariatur, minima dolore debitis molestiae doloribus voluptatibus harum tenetur
+
+                    explicabo corrupti sit eius aut odio rem dolorem. Lorem ipsum dolor sit amet consectetur
+
+                    adipisicing elit. Id earum culpa optio amet quo, distinctio fugit nulla? Deleniti, nobis, fugiat
+
+                    eveniet quas perspiciatis repellendus, vitae recusandae maxime fuga molestias accusantium? Lorem</p>
+            </div>
+
+            <div class="col-4 d-flex align-items-center justify-content-center">
+                <img src="https://via.placeholder.com/150" class="rounded" alt="Responsive image">
+
+            </div>
+        </div>
+        <div class="row ">
+            <div class="col d-flex justify-content-center">
+                <button type="button" class="btn btn-outline-dark">Contact us</button>
+
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <div class="container mt-3 border-bottom border-dark">
+        <h3>Best hunters</h3>
+        <div class="row">
+
+            <div class="col-lg-6 col-md-6 col-12">
+
+                <div class="media mt-3 mb-4">
+
+                    <img src="https://via.placeholder.com/70" class="align-self-start mr-3 rounded" alt="...">
+
+                    <div class="media-body">
+
+                        <h5 class="mb-0">ElvesKiller22</h5>
+
+                        <p class="mb-0">2 captures <a href="#">Profile</a></p>
+                        <span class="badge badge-primary">Likes 68k</span>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div class="col-lg-6 col-md-6 col-12">
+
+                <div class="media mt-3 mb-4">
+
+                    <img src="https://via.placeholder.com/70" class="align-self-start mr-3 rounded" alt="...">
+
+                    <div class="media-body flex-column">
+
+                        <h5 class="mb-0">Goblin45</h5>
+
+                        <p class="mb-0">1 captures <a href="#">Profile</a></p>
+
+                        <span class="badge badge-primary">Likes 68k</span>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+
+
+
+    <div class="container mt-3 border-bottom border-dark">
+        <h3>About the ring</h3>
+        <div class="card mt-3">
+            <div class="card-header">
+                <p class="font-weight-bold">Ring Capabilities</p>
+            </div>
+            <div class="card-body">
+                <p class="card-text text-muted font-weight-bold">What can our master Sauron do with the ring?</p>
+                <table class="table table-striped table-bordered text-center">
+                    <thead>
+                        <tr>
+                            <th scope="col">Feature</th>
+                            <th scope="col">Description</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Main</td>
+                            <td>One ring to rules them all</td>
+                        </tr>
+                        <tr>
+                            <td>Invinsibility</td>
+                            <td>You can't see me</td>
+                        </tr>
+                        <tr>
+                            <td>Power</td>
+                            <td>Destroy the worldS</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        <div class="card mt-3 mb-3">
+            <div class="card-header">
+                <p class="font-weight-bold">Why the ring is awesome?</p>
+            </div>
+            <div class="card-body">
+
+                <div class="media">
+                    <div class="media-body">
+                        <h3 id="myprecious" class="card-text text-muted font-weight-bold text-lg-right">My precioooooossssss ! Hrk Hrk,
+                            we want our precioooooossssss !!</h3>
+                        <p id="gollum" class="text-right">Gollum</p>
+                    </div>
+                    <img id="imageprecious" src="https://via.placeholder.com/100" class="rounded-circle ml-lg-5 ml-md-5" alt="...">
+                </div>
+
+
+
+
+
+            </div>
+        </div>
+    </div>
+
+    <div class="container pb-3 pt-3  border-bottom border-dark">
+        <div class="row">
+
+            <div class="col-4 d-flex align-items-center justify-content-center">
+
+                <img src="https://via.placeholder.com/140" class="rounded" alt="Responsive image">
+
+            </div>
+
+
+            <div class="col-8">
+
+                <h3>Join Mordor Army, we need you !</h3>
+
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iste atque blanditiis doloremque
+
+                    corporis pariatur, minima dolore debitis molestiae doloribus voluptatibus harum tenetur
+
+                    explicabo corrupti sit eius aut odio rem dolorem. Lorem ipsum dolor sit amet consectetur</p>
+            </div>
+
+        </div>
+        <div class="row ">
+            <div class="col d-flex justify-content-center">
+                <button type="button" class="btn btn-outline-dark">More info on SauronRulesThemAll.com</button>
+
+            </div>
+        </div>
+    </div>
+
+
+    <div class="container mt-3 mb-5 border-dark">
+        <h3>Contact us</h3>
+        <form>
+            <div class="input-group mb-3 mt-3">
+                <div class="input-group-prepend">
+                    <span class="input-group-text" id="basic-addon1">@</span>
+                </div>
+                <input type="text" class="form-control secondform" placeholder="" aria-label="Username"
+                    aria-describedby="basic-addon1">
+            </div>
+
+            <div class="input-group mb-3">
+                <div class="input-group-prepend">
+                    <span class=" input-group-text" id="basic-addon2"><i class="fas fa-home"></i></span>
+                </div>
+                <input type="text" class="form-control secondform" placeholder="" aria-label="Username"
+                    aria-describedby="basic-addon2">
+            </div>
+            <div class="form-group">
+                <select class="form-control" id="exampleFormControlSelect1">
+                    <option>I have send one of them</option>
+                    <option>2</option>
+                    <option>3</option>
+                    <option>4</option>
+                    <option>5</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <textarea class="form-control" id="exampleFormControlTextarea1" rows="5"
+                    placeholder="Your message"></textarea>
+            </div>
+        </form>
+    </div>
+
+    <footer>
+        <div id="footerid" class="container-fluid text-light bg-dark p-5">
+            <div class="row ">
+                <div class="col-3 d-flex flex-column">
+                    <a href="#"><h5>About us</h5></a>
+                    <a href="#fellows"><h5>Fellows</h5></a>
+                    <a href="#"><h5>Join our army</h5></a>
+                </div>
+                <div class="col-3 d-flex flex-column">
+                        <a href="#"><h5>FAQ</h5></a>
+                        <a href="#"><h5>Rewards conditions</h5></a>
+                        <a href="#"><h5>Legal mentions</h5></a>
+                </div>
+                <div class="col-3 offset-md-3 d-flex flex-column">
+                        <a href="#"><h5>Sauron4Ever.com</h5></a>
+                        <a href="#"><h5>Follow him also on twitter</h5></a>
+                      
+            </div>
+        </div>
+        </div>
+    </footer>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous">
+    </script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous">
+    </script>
+</body>
+
+</html>
