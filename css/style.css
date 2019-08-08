@@ -2,25 +2,25 @@
     font-family: "Party Business";
     font-style: normal;
     font-weight: normal;
-    src: local("Party Business"), url('../FindthePrecious/Font/nancy-lorenz_party-business/partybusiness.ttf') format('truetype');
+    src: local("Party Business"), url('Font/nancy-lorenz_party-business/partybusiness.ttf') format('truetype)');
 }
 
 @font-face {
     font-family: "Aniron";
     font-style: normal;
     font-weight: normal;
-    src: local("Aniron"), url('../FindthePrecious/Font/pete-klassen_aniron/Aniron-7BaP.ttf') format('truetype');
+    src: local("Aniron"), url('Font/pete-klassen_aniron/Aniron-7BaP.ttf') format('truetype');
 }
 
 @font-face {
     font-family: "Tengwar Annatar";
     font-style: normal;
     font-weight: normal;
-    src: local("Tengwar Annatar"), url('../FindthePrecious/Font/tengwar_annatar/tnganbi.ttf') format('truetype');
+    src: local("Tengwar Annatar"), url('Font/tengwar_annatar/tnganbi.ttf') format('truetype');
 }
 
 body {
-    background: url('img/integration_maquette_finale/integration_maquette_finale/bg_light.png');
+    background: url('../img/integration_maquette_finale/integration_maquette_finale/bg_light.png');
 }
 
 
@@ -269,7 +269,7 @@ h5 {
     text-decoration: line-through orangered;
 }
 .rewards{
-    background: url('../FindThePrecious/img/integration_maquette_finale/integration_maquette_finale/bg_dark.png');
+    background: url('../img/integration_maquette_finale/integration_maquette_finale/bg_dark.png');
     color: white;
     
 }
@@ -298,7 +298,7 @@ h5 {
     color: black;
 }
 .ringsection{
-    background: url('../FindThePrecious/img/integration_maquette_finale/integration_maquette_finale/bg_dark.png');
+    background: url('../img/integration_maquette_finale/integration_maquette_finale/bg_dark.png');
     color: white;
 }
 .entetecard{
@@ -341,11 +341,11 @@ h5 {
     color: orangered;
 }
 .moreinfo-btn{
-    background: url('../FindThePrecious/img/integration_maquette_finale/integration_maquette_finale/bg_dark.png');
+    background: url('../img/integration_maquette_finale/integration_maquette_finale/bg_dark.png');
     box-shadow: 10px 5px 5px gray;
 }
 .contact-container{
-    background: url('../FindThePrecious/img/integration_maquette_finale/integration_maquette_finale/bg_dark.png');
+    background: url('../img/integration_maquette_finale/integration_maquette_finale/bg_dark.png');
 }
 .contact-titre{
     color: white;
