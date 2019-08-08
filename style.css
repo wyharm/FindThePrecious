@@ -1,13 +1,131 @@
-.navbar-brand{
+@font-face {
+    font-family: "Party Business";
+    font-style: normal;
+    font-weight: normal;
+    src: local("Party Business"), url('../FindthePrecious/Font/nancy-lorenz_party-business/partybusiness.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: "Aniron";
+    font-style: normal;
+    font-weight: normal;
+    src: local("Aniron"), url('../FindthePrecious/Font/pete-klassen_aniron/Aniron-7BaP.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: "Tengwar Annatar";
+    font-style: normal;
+    font-weight: normal;
+    src: local("Tengwar Annatar"), url('../FindthePrecious/Font/tengwar_annatar/tnganbi.ttf') format('truetype');
+}
+
+body {
+    background: url('img/integration_maquette_finale/integration_maquette_finale/bg_light.png');
+}
+
+
+
+.paragraphe{
+    font-size: 1.5em;
+    font-family: "Party Business";
+}
+
+h3,
+h4 {
+    font-family: "Aniron";
+}
+h5{
+    font-family: "Party Business";
+    font-size: 3em; 
+    color: orangered;
+}
+.phunter{
+    font-size: 1.5em;
+    font-family: "Party Business";
+    padding-left: 8px;
+   
+}
+.hace{
+    background: black;
+    width: 30%;
+    color: orangered;
+}
+
+.ij {
+    font-family: "Tengwar Annatar";
+    color: orangered;
+}
+
+.b {
+    font-family: "Tengwar Annatar";
+    color: orangered;
+    visibility: hidden;
+}
+
+small {
+    color: black;
+}
+
+h3 {
+    font-size: 1.5em;
+}
+.hsauron{
+    overflow-wrap: break-word;
+}
+
+#firstH {
+    font-family: "Aniron";
+    color: white;
+}
+
+.nav-item a {
+    font-family: "Aniron";
+    font-size: 1.1em;
+    color: white;
+}
+
+.nav-item a:hover {
+    text-decoration: underline;
+}
+
+.navbar {
+    background: orangered;
+}
+.navbar-dark .navbar-nav .nav-link{
+    color: white;
+}
+.carousel-caption {
+    bottom: 30%;
+    text-align: left;
+}
+
+.carousel-caption p {
+    font-family: "Party Business";
+    font-size: 2.5em;
+}
+
+.carousel-caption h2 {
+    font-family: "Party Business";
+    font-size: 4.5em;
+}
+
+.navbar-brand {
 
     margin-left: 2px;
 }
 
-.nav-pills > .nav-item > .active{
-    background-color:rgb(77, 76, 76);
+.nav-pills>.nav-item>.active .b {
+    background: none;
+    color: orangered;
+    visibility: visible;
+    border-bottom:5px;
+}
+.nav-pills>.nav-item>.active {
+    background: none;
+    color: orangered;
 }
 
-.nav-pills > .nav-item > a{
+.nav-pills>.nav-item>a {
 
 
     color: rgb(77, 76, 76);
@@ -18,130 +136,335 @@
 
 
 .gandalf {
-    
+
     position: relative;
     size: 100%;
-  
+
     background-size: cover;
     opacity: 0.7;
     transition: 0.5s;
 }
 
 .encadre p {
-    background-color: white;
+    background-color: rgba(255, 255, 255, 0.8);
     border-radius: 5px;
+    box-shadow: 5px;
     position: absolute;
     top: 10%;
     left: 50%;
     transform: translate(-50%, -50%);
     opacity: 1;
     font-weight: bold;
+    text-align: center;
+    font-size: 20px;
+    width: 70%;
 }
 
-
+.vignette{
+    font-family: "Party Business";
+}
 
 .card:hover .vignette {
-    
+
     opacity: 0;
 }
 
-.card:hover .gandalf{
+.card:hover .gandalf {
 
     opacity: 1;
 }
-.vignette:hover{
+
+.vignette:hover {
     display: none;
 }
 
 .gold {
-    color: gold;
+    color: orangered;
     font-weight: bold;
 }
-th {
-    width: 50%;
-    background-color: rgb(196, 193, 193);
-    color: white;
- }
- .card-header p{
+
+
+.table td{
+    color: gray;
+    padding-left: 2em;
+   
+}
+.tableau{
+    width: 20%;
+}
+.titre-tableau{
+    font-family: "Party Business";
+    color: black;
+}
+
+.card-header p {
     margin-bottom: 0em;
- }
- #gollum{
-     color: rgb(196, 190, 190);
- }
-.input-group-text{
+}
+.table{
+    font-family: "Aniron";
+   
+}
+
+#gollum {
+    color: gray;
+    font-size: 2em;
+    font-family: "Party Business";
+}
+
+.input-group-text {
     background-color: white;
 }
-.secondform{
+
+.secondform {
     border-left-color: white;
 }
-a{
-    text-decoration: none;
-    color: white;
-    
-}
-a:hover{
-    text-decoration: none;
-    color: gray;
-}
-h5{
+
+h5 {
     font-weight: bold;
 }
-.gandalfgris{
+
+.gandalfgris {
 
     position: absolute;
     color: rgb(255, 255, 255);
-    
+
     text-align: center;
     top: 30%;
     left: 25%;
-    font-size: 40px;
+    font-size: 50px;
     transition: all .5s ease-in-out;
-    }
+    font-family: "Party Business";
+    
+}
+.dead{
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 1;
+    font-weight: bold;
+    text-align: center;
+    font-size: 50px;
+    width: 70%;
+    color: orangered;
+    font-family: "Party Business";
+}
+
+
+
 .card:hover .gandalfgris {
     top: 60%;
     transform: scale(0.7);
 }
-@media (max-width: 575.98px) { 
-    #myprecious{
+.card-hunter{
+    background-color: black;
+    color: gray;
+    border: 5px solid black;
+}
+.card-text{
+    font-size: 25px;
+    font-family: "Party Business";
+}
+.barrer{
+    text-decoration: line-through orangered;
+}
+.rewards{
+    background: url('../FindThePrecious/img/integration_maquette_finale/integration_maquette_finale/bg_dark.png');
+    color: white;
+    
+}
+
+.reward-paragraph{
+    padding-left: 50px;
+}
+.bouton{
+    color: orangered;
+    background-color: white;
+    font-family: "Aniron";
+    font-size: 1.5em;
+}
+.hrhaut{
+    width: 50%;
+    border: 2px solid orangered;
+    margin-top: 0;
+}
+.hrbas{
+    width: 50%;
+    border: 2px solid orangered;
+    margin-bottom: 0;
+}
+.media-body > .phunter > a{
+    text-decoration: underline;
+    color: black;
+}
+.ringsection{
+    background: url('../FindThePrecious/img/integration_maquette_finale/integration_maquette_finale/bg_dark.png');
+    color: white;
+}
+.entetecard{
+    background-color: orangered;
+    color: white;
+    font-size: 1.7em;
+    font-family: "Aniron" !important;
+    
+}
+.card-tableau{
+    border: none;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+    border-bottom: orangered 5px solid;
+    
+}
+
+.body-card{
+    background-color: rgb(226, 217, 217);
+}
+.table td{
+    border-top: rgb(161, 160, 160) solid 2px;
+}
+.table thead th{
+    border-bottom: black solid 2px;
+    border-top: none;
+    color: black;
+    font-size: 1.5em;
+}
+#myprecious {
+    font-size: 2em;
+}
+.text-army{
+    font-family: "Party Business";
+    font-size: 1.5em;
+}
+.moreinfo{
+    font-size: 1.4em;
+    font-family: "Aniron";
+    color: orangered;
+}
+.moreinfo-btn{
+    background: url('../FindThePrecious/img/integration_maquette_finale/integration_maquette_finale/bg_dark.png');
+    box-shadow: 10px 5px 5px gray;
+}
+.contact-container{
+    background: url('../FindThePrecious/img/integration_maquette_finale/integration_maquette_finale/bg_dark.png');
+}
+.contact-titre{
+    color: white;
+    padding-left: 1.5em;
+}
+
+#footerid h5{
+    font-size: 1.2em;
+    font-family: "Aniron";
+    color: white;
+    font-weight: 100;
+    padding: 15px;
+}
+#footerid{
+    background-color: orangered;
+}
+#logofooter{
+    width: 100%;
+    padding: 15px;
+}
+.form-control{
+    font-family: "Aniron";
+    color: gray;
+}
+
+
+
+@media (max-width: 575.98px) {
+    #myprecious {
         font-size: 20px;
     }
-    #imageprecious{
+
+    #imageprecious {
         margin-left: 10px;
     }
-    footer h5{
+
+    footer h5 {
         font-size: 10px;
     }
-    #footerid{
-        padding: 25px;
+
+    #footerid {
+        padding: 10px;
+    }
+    .army-h{
+        font-size: 0.8em;
+    }
+    #firstH{
+        width: 60%;
+    }
+    #firstH img{
+        width: 100%;
+    } 
+    h3{
+        font-size: 1em;
+        text-align: center;
+    }
+    .coin{
+        padding: 5px;
+    }
+    h5{
+        font-size: 1.5em;
+    }
+    .hace{
+        display: inline;
+    }
+    .table thead th{
+        font-size: 0.8em;
+    }
+    .table td{
+        padding-left: 0em;
+    }
+    .entetecard p{
+        font-size: 0.8em;
+    }
+    .moreinfo{
+        font-size: 0.8em;
+    }
+    #footerid h5{
+        font-size: 0.6em;
+        padding: 0.2em;
+    }
+    .footercol{
+        padding-left: 8px;
+        padding-right: 0px;
+    }
+    .hsauron{
+        font-size: 14px; 
+        
     }
 }
 
-@media (min-width: 768px) and (max-width: 991.98px) { 
+@media (min-width: 768px) and (max-width: 991.98px) {
 
-    .gandalfgris{
+    .gandalfgris {
         left: 15%;
     }
+
     .card:hover .gandalfgris {
         top: 30%;
         transform: scale(1);
     }
+   
 }
 
-@media (min-width: 576px) and (max-width: 767.98px) { 
-    .gandalfgris{
+@media (min-width: 576px) and (max-width: 767.98px) {
+    .gandalfgris {
         left: 10%;
         font-size: 30px;
     }
+
     .card:hover .gandalfgris {
         top: 30%;
         transform: scale(1);
     }
+
     .encadre p {
         top: 10%;
         font-size: 10px;
-        
+
     }
 
- }
-
-
+}
